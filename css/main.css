@@ -4,6 +4,7 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
+
          url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
@@ -17,6 +18,15 @@
          url('../fonts/barlow-condensed-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 *{
+
+        url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -24,7 +34,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
 
@@ -38,7 +48,73 @@ body{
 }
 
 /* Doniyor's Css start */
-
+ .section{
+   width: 100%;
+   height:100vh;
+   background-image: url(../images/DoniyorsImg/space.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+        }
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+.unordered__list{
+    width: 700px;
+    height: 96px;
+    display: flex;
+    gap: 57px;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.7742px);
+text-align: center;
+color: white;
+padding: 0 120px;
+}
+.list_item{
+    text-align: center;
+    padding: 40px.0;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.link{
+    color: white;
+}
+.main_section{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 120px;
+}
+.travel_information{
+    font-size: 28px
+}
+.space_article{
+    font-size: 150px
+}
+.second_section{
+    position: relative;
+    width: 270px;
+    height: 270px;
+    border: none;
+    margin-right: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+.oval_explore{
+    position: absolute;
+    height: 37px;
+    left: 30.63%;
+    right: 0.36%;
+    top: calc(50% - 37px/2 + 0.5px);
+    font-size: 32px;    
+}
 /* Doniyor's Css end */
 
 
@@ -164,6 +240,125 @@ color: #D0D6F9;
 
 
 /* Javlon's Css start */
+
+.section-contianer {
+    background-image: url(../javlonbek/site-bac.img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 71px 0px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-img {
+    margin-left: 55px;
+}
+
+.nav-list {
+    padding: 39px 123px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h2 {
+    margin-top: 154px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+h3 {
+    margin-top: 15px;
+    max-width: 488px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p {
+    margin-top: 27px;
+    max-width: 444px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #D0D6F9;
+}
+
+.main-circul {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.first{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 1.17;
+}
+article {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.17;
+}
 
 /* Javlon's Css end */
 
