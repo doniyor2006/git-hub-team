@@ -1,0 +1,48 @@
+/* barlow-condensed-regular - latin */
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-condensed-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-condensed-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+}
+
+/* Doniyor's Css start */
+
+/* Doniyor's Css end */
+
+
+
+
+
+/* Sherzodjon's Css start */
+
+/* Sherzodjon's Css end */
+
+
+
+
+/* Javlon's Css start */
+
+/* Javlon's Css end */
+
+
+
+
+
+/* Duebek's Css start */
+
+/* Duebek's Css end */
