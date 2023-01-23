@@ -66,12 +66,15 @@ body {
     width: 700px;
     height: 96px;
     display: flex;
-    gap: 57px;
+    gap: 47px;
     background: rgba(255, 255, 255, 0.04);
 backdrop-filter: blur(40.7742px);
 text-align: center;
 color: white;
-padding: 0 120px;
+padding: 0 30px;
+}
+.item__number{
+    color: white;
 }
 .list_item{
     text-align: center;
@@ -96,6 +99,7 @@ padding: 0 120px;
     font-size: 28px
 }
 .space_article{
+    margin: 40px 0;
     font-size: 150px
 }
 .second_section{
@@ -112,7 +116,7 @@ padding: 0 120px;
     height: 37px;
     left: 30.63%;
     right: 0.36%;
-    top: calc(50% - 37px/2 + 0.5px);
+    top: calc(40% - 37px/2 + 0.5px);
     font-size: 32px;    
 }
 /* Doniyor's Css end */
